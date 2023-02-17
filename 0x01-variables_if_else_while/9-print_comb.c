@@ -9,19 +9,21 @@
 */
 int main(void)
 {
-	int x, y;
-
-	for (x = 48; x <= 56; x++)
-		for (y = 49; y <= 57; y++)
+	int d1, d2;
+	for (d1 = 0; d1 < 9; d1++)
+	{
+		for (d2 = d1 + 1; d2 < 10; d2++)
 		{
-			if (y > x)
-			{
-				putchar(x);
-				putchar(y);
-				putchar(',');
-				putchar(' ');
-			}
+			putchar((d1 % 10) + '0');
+			putchar((d2 % 10) + '0');
+
+			if (d1 == 8 && d2 == 9)
+				continue;
+			putchar(',');
+			putchar(' ');
 		}
+	}
+
 }
 putchar('\n');
 return (0);
