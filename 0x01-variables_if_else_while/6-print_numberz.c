@@ -8,10 +8,10 @@
 * Return: Always 0 (Success)
 */
 int main(void)
-{	char ch;
+{	int ch;
 
 	/* your code goes there */
-	for (ch = 97 ; ch <= 106 ; ch++)
+	for (ch = 48 ; ch <= 57 ; ch++)
 	{
 		putchar(ch);
 	}
