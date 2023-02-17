@@ -2,7 +2,8 @@
 /**
 * main - Entry point
 *
-* Description: ' prints the alphabet in lowercase, followed by a new line.'
+* Description: ' Write a program that prints the alphabet in lowercase, and'
+*'then in uppercase, followed by a new line.'
 *
 * Return: Always 0 (Success)
 */
@@ -12,6 +13,8 @@ int main(void)
 	/* your code goes there */
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 		putchar(ch);
+	for (ch = 'A' ; ch <= 'Z' ; ch++)
+		putchar(ch);
 	putchar('\n');
-	return (0);
+return (0);
 }
