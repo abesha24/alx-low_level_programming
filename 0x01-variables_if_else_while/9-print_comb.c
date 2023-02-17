@@ -8,17 +8,22 @@
 * Return: Always 0 (Success)
 */
 int main(void)
-{	int ch;
+{
+	int d1, d2;
 
-	/* your code goes there */
-	for (ch = 0 ; ch <= 9 ; ch++)
+	for (d1 = 0; d1 < 9; d1++)
 	{
-		putchar((ch % 10) + '0');
-		if (ch == 9)
-			continue;
-		putchar(',');
-		putchar(' ');
+		for (d2 = d1 + 1; d2 < 10; d2++)
+		{
+			putchar((d1 % 10) + '0');
+			putchar((d2 % 10) + '0');
+
+			if (d1 == 8 && d2 == 9)
+				continue;
+			putchar(',');
+			putchar(' ');
+		}
 	}
-	putchar('\n');
+
 return (0);
 }
