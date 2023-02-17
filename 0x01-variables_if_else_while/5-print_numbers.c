@@ -13,7 +13,7 @@ int main(void)
 	/* your code goes there */
 	for (ch = 0 ; ch <= 9 ; ch++)
 	{
-		putchar(ch);
+		printf("%d", ch);
 	}
 	putchar('\n');
 return (0);
