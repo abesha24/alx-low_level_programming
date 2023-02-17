@@ -3,10 +3,10 @@
 #include <time.h>
 
 /**
-* main - Entry point
-*
-* Description: 'the program to check the number is positive , negetive or zer
-* Return: Always 0 (Success)*/
+ *main - Entry point
+ *Description: 'the program to check the number is positive , negetive or zero'
+ *Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
