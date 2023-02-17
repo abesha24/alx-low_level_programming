@@ -2,8 +2,8 @@
 /**
 * main - Entry point
 *
-* Description:Write a program that prints all possible combinations of
-* single-digit numbers.
+* Description: Write a program that prints all possible different combinations
+* of two digits.
 *
 * Return: Always 0 (Success)
 */
@@ -18,11 +18,8 @@ int main(void)
 			{
 				putchar(x);
 				putchar(y);
-				if (x != 56 || y != 57)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 }
