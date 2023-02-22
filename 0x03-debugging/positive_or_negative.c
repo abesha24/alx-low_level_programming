@@ -13,7 +13,7 @@ int main(void)
 
 	srand(time(0));
 	/* your code goes there */
-	i = 0;
+	n = 0;
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
