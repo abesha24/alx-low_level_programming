@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * Write a function that swaps the values of two integers.
- * @n: pointer to n to be updated
+ * swap_int - a function that swaps the values of two integers.
+ * @a: the First integer
+ * @b: the Second Integer
  */
 
 void swap_int(int *a, int *b)
