@@ -17,7 +17,7 @@ void print_rev(char *s)
 		a++;
 	}
 
-	len = a;
+	lent = a;
 
 	b = lent - 1;
 
